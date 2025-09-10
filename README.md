@@ -13,35 +13,24 @@ This is a Django REST Framework project for managing books and reviews.
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/<username>/django-library-api.git
+cmd
+git clone https://github.com/Nishu1111/django-library-api.git
 cd django-library-api
 Create and activate a virtual environment:
 
-bash
-Copy code
+cmd
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 Install dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
+
 Run migrations:
-
-bash
-Copy code
 python manage.py migrate
+
 Seed dummy data (optional):
-
-bash
-Copy code
 python manage.py seed_books
-Run the server:
 
-bash
-Copy code
+Run the server:
 python manage.py runserver
 API Endpoints:
 
@@ -55,9 +44,7 @@ API Endpoints:
 
 License
 MIT
-
 sql
-Copy code
 
 Then stage and commit:
 
